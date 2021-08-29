@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #defff5;
+
+  }
+ 
+  main {
+    margin-top: 20px;
+    padding: 10px;
+    width: 90vw;
+    height: auto;
+    border: 2px solid #ffffff;
+    border-radius: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e8effa;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+
+  .section {
+    width: 100%;
+    height: auto;
+    background-color: #b8d3ff;
+    border-bottom: 3px solid #000000;
+    padding: 20px;
+    transition-timing-function: linear;
+    transition-duration: 3s;
+  }
+
+  .section:first-child {
+      border-radius: 30% 30% 0px 0px;
+  }
+
+  .section:last-child {
+    border-radius: 0px 0px 30% 30%;
+  }
+
+  .page-title {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  .page-subtitle p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .page-subtitle h1 {
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+    font-size: 3rem;
+  }
+
+  .bill-photo {
+    position: relative;
+  }
+
+  .bill-photo img{
+    width: 115px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+  }
+
+  .tribute-intro {
+      text-align: justify;
+      font-size: 1.6rem;
+  }
+
+  .tribute-timeline > h1, .tribute-intro > h1 {
+      padding-bottom: 20px;
+      font-family: 'Permanent Marker', cursive;
+      text-decoration: underline;
+      font-size: 2rem;
+      color: rgb(38, 0, 255);
+  }
+
+  .tribute-timeline ul{
+      list-style: none;
+      font-size: 1.6rem;
+      text-align: left;
+  }
+
+  .tribute-timeline i {
+      padding-right: 5px;
+  }
+
+  .tribute-citacao, .tribute-autor {
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 10px;
+  }
